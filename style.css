@@ -1,0 +1,252 @@
+html,
+body {
+    background-image: url("./assets/black-linen-2.png");
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    color: rgb(230, 230, 230);
+    font-family: "Inter";
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Inter-Regular.ttf");
+}
+
+
+.wrapper {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    justify-content: center;
+    font-family: "Inter";
+    color: rgb(230, 230, 230);
+    font-size: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.btn__wrapper {
+    width: 500px;
+}
+
+.btn {
+    height: 100px;
+    background: none;
+    border: none;
+    color: rgb(185, 185, 185);
+    font-size: 30px;
+}
+
+.btn__simple {
+    cursor: pointer;
+    color: rgb(230, 230, 230);
+    transition: 0.3s;
+}
+.btn__simple:hover {
+    color: rgb(185, 185, 185);
+}
+
+.simple {
+    width: 1000px;
+    height: 10000px;
+    margin: 0 50px;
+    
+}
+
+header {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.btn__back {
+    background:none;
+    border: none;
+    font-size: 30px;
+    color: rgb(185, 185, 185);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn__back:hover {
+    color: rgb(230, 230, 230);
+}
+.wrap {
+    display: flex;
+    width: 1100px;
+    margin-bottom: 50px;
+}
+.task__wrapper {
+    width: 500px;
+}
+.task {
+    margin-top: 50px;
+}
+.task__answers {
+    margin-top: 100px;
+    display: none;
+}
+.task__answers.active {
+    margin-top: 100px;
+    display: block;
+}
+.task__item {
+    list-style: circle;
+    margin-bottom: 15px;
+}
+.answer__item {
+    list-style: none;
+    margin-bottom: 15px;
+}
+.input {
+    resize: none;
+    width: 70px;
+    height: 20px;
+    background: none;
+    overflow-y: hidden;
+    color: rgb(230, 230, 230);
+    text-align: center;
+    font-size: 17px;
+    border: 1px solid gray;
+}
+.answer__wrapper {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.btn__answers.active {
+    margin-top: -740px;
+}
+.btn__answers {
+    width: auto;
+    height: 20px;
+    background:none;
+    border: none;
+    font-size: 20px;
+    color: rgb(185, 185, 185);
+    cursor: pointer;
+    margin-top: -100px;
+}
+.btn__answers:hover {
+    color: rgb(230, 230, 230);
+}
+.btn2__answers.active {
+    margin-top: -391px;
+    margin-bottom: 50px;
+}
+.btn2__answers {
+    width: auto;
+    height: 20px;
+    background:none;
+    border: none;
+    font-size: 20px;
+    color: rgb(185, 185, 185);
+    cursor: pointer;
+    margin-top: -25px;
+}
+.btn2__answers:hover {
+    color: rgb(230, 230, 230);
+}
+.task2__answers {
+    margin-top: 50px;
+    display: none;
+}
+.task2__answers.active {
+    margin-top: 50px;
+    display: block;
+}
+.btn__wrapper2 {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn3__answers.active {
+    margin-top: -350px;
+    margin-bottom: 50px;
+}
+.btn3__answers {
+    width: auto;
+    height: 20px;
+    background:none;
+    border: none;
+    font-size: 20px;
+    color: rgb(185, 185, 185);
+    cursor: pointer;
+    margin-top: 21px;
+}
+.btn3__answers:hover {
+    color: rgb(230, 230, 230);
+}
+.task3__answers {
+    margin-top: 50px;
+    display: none;
+}
+.task3__answers.active {
+    margin-top: 70px;
+    display: block;
+    margin-bottom: 0px;
+}
+.btn__wrapper3 {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+.task4__textarea {
+    resize: none;
+    background: transparent;
+    width: 300px;
+    height: 100px;
+    color: rgb(230, 230, 230);
+    font-size: 15px;
+    font-family: 'Inter';
+}
+
+
+.btn4__answers {
+    width: auto;
+    height: 20px;
+    background:none;
+    border: none;
+    font-size: 20px;
+    color: rgb(185, 185, 185);
+    cursor: pointer;
+    margin-top: 21px;
+}
+.btn4__answers:hover {
+    color: rgb(230, 230, 230);
+}
+.task4__answers {
+    margin-top: 50px;
+    display: none;
+}
+.task4__answers.active {
+    margin-top: 70px;
+    display: block;
+}
+.btn__wrapper4 {
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.task4 {
+    margin-bottom: 50px;
+}
